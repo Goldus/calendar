@@ -19,6 +19,10 @@ window.onload = function() {
 		let nowMonth = newData.getMonth();
 		let currentDate = newData.getDate();
 
+		today = newData;
+		cur_month = nowMonth;
+		cur_year = nowYear;
+
 		const table = document.querySelector('.calendar-main');
 		if (table) {
 			table.remove();
